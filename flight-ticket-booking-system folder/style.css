@@ -1,0 +1,559 @@
+/* Global Styles */
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 1200px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #333;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+ 
+  
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #333;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Navigation */
+  
+  nav {
+    background-color: #007bff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+  }
+  
+  /* Buttons */
+  
+  .button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Forms */
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  
+  footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Additional Styles for Flight Booking Pages */
+  
+  /* Search Flights */
+  
+  .search-form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .search-form h2 {
+    margin-top: 0;
+  }
+  
+  .search-form label {
+    display: block;
+  }
+  
+  .search-form input[type="date"],
+  .search-form input[type="time"] {
+    width: auto;
+  }
+  
+  .search-results {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-results h3 {
+    margin-top: 0;
+  }
+  
+  .search-results table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .search-results th,
+  .search-results td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .search-results th {
+   font-weight: bold;
+  }
+  
+  .search-results td:first-child {
+    width: 20%;
+  }
+  
+  .search-results td:last-child {
+    text-align: center;
+  }
+  
+  /* My Bookings */
+  
+  .my-bookings {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .my-bookings h2 {
+    margin-top: 0;
+  }
+  
+  .my-bookings table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .my-bookings th,
+  .my-bookings td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .my-bookings th {
+    font-weight: bold;
+  }
+  
+  .my-bookings td:first-child {
+    width: 20%;
+  }
+  
+  .my-bookings td:last-child {
+    text-align: center;
+  }
+  
+  /* About Us */
+  
+  .about-us {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .about-us h2 {
+    margin-top: 0;
+  }
+  
+  .about-us p {
+    text-align: justify;
+  }
+  
+  .about-us img {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  /* Contact Us */
+  
+  .contact-us {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-us h2 {
+    margin-top: 0;
+  }
+  
+  .contact-us p {
+    text-align: center;
+  }
+  
+  .social-media {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #007bff;
+    font-size: 20px;
+  }
+  
+  .social-media a:hover {
+    color: #0056b3;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #333;
+  }
+  .label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    width: 100px; 
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  
+  .form-group label {
+    margin-right: 10px;
+  }
+  
+  
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+  }
+  .navbar {
+    background-color: black;
+  }
+  
+  .navbar a {
+    color: skyblue;
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+  }
+  
+  .demo-wrap {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .demo-bg {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  .navbar {
+    background-color: black;
+  }
+  
+  .navbar a {
+    color: skyblue;
+  }
+  
+  .navbar a:hover {
+    background-color: skyblue;
+    color: black;
+  }
+  button {
+    background-color: black;
+    color: skyblue;
+}
+.btn-back {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .btn-back:hover {
+    background-color: #555;
+  }
+  
+  
+  .login-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.container {
+    text-align: center;
+}
+
+
+
+.navbar {
+    background: #323643;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 8px;
+}
+
+.navbar ul li a {
+    font-size: 14px;
+    color: #bae8e8;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 3px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.navbar ul li a:before,
+.navbar ul li a:after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background: #bae8e8;
+    transition: 0.3s;
+}
+
+.navbar ul li a:before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar ul li a:after {
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.navbar ul li a:hover:before,
+.navbar ul li a:hover:after {
+    width: 50%;
+}
+
+.navbar ul li a:hover {
+    background: #bae8e8;
+    color: #323643;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #bae8e8;
+    text-decoration: none;
+}
+.flight-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+.flight-table th,
+.flight-table td {
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+.flight-table th {
+    background-color: #f2f2f2;
+}
+
+.flight-table td {
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+.btn-pay {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .btn-pay:hover {
+    background-color: #555;
+  }
